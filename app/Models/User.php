@@ -46,6 +46,6 @@ class User extends Authenticatable
      * ユーザーの保持する全タスク
      */
     public function tasks(){
-        return $this->hasMany(task::class);
+        return $this->hasMany(Task::class);
     }
 }
